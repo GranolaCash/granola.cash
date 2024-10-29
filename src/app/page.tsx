@@ -36,7 +36,7 @@ export default function LandingPage() {
           </Link>
 
           <section className="py-16">
-            <h2 className="text-3xl font-bold text-center mb-12">From Nature to Your Bowl</h2>
+            <h2 className="text-3xl font-bold text-center mb-12">A New Era in Bitcoin Exchanges</h2>
             <div className="flex flex-wrap justify-center items-center gap-4">
               {emojis.map((emoji, index) => (
                 <div key={index} className="flex items-center">
@@ -56,9 +56,14 @@ export default function LandingPage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <Image src="/granola.png?height=300&width=300" alt="Granola Bowl" width={300} height={300} className="mx-auto rounded-lg shadow-lg" />
               <div className="text-left space-y-4">
-                <p>Granola combines the goodness of traditional granola with the power of blockchain technology.</p>
-                <p>Our unique system allows you to earn cryptocurrency rewards while enjoying your daily bowl of nutritious granola.</p>
-                <p>Join us in creating a healthier future, one bowl at a time.</p>
+                <p>
+                    Granola is the first exchange built on Cashu and Nostr, allowing atomic cross-mint swaps
+                    and Chaumian eCash transactions for enhanced privacy.
+                </p>
+                <p>
+                    With integrations for Taproot Assets and Liquid, we bring flexible
+                    private asset management to Bitcoin and stablecoins.
+                </p>
               </div>
             </div>
           </div>
